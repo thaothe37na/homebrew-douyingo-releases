@@ -7,7 +7,7 @@ Binary releases and Homebrew Cask formula for [DouyinGo](https://github.com/thao
 ### macOS (Homebrew)
 
 ```bash
-brew install thaothe37na/douyingo-releases/douyingo
+brew install thaothe37na/homebrew-douyingo-releases/douyingo
 ```
 
 After installation, if you see a security warning:
@@ -17,12 +17,12 @@ After installation, if you see a security warning:
 
 ### Windows
 
-Download the latest `.msi` from [Releases](https://github.com/thaothe37na/douyingo-releases/releases), then double-click to install.
+Download the latest `.msi` from [Releases](https://github.com/thaothe37na/homebrew-douyingo-releases/releases), then double-click to install.
 
 ### Linux (Debian/Ubuntu)
 
 ```bash
-curl -LO https://github.com/thaothe37na/douyingo-releases/releases/latest/download/DouyinGo_x64.deb
+curl -LO https://github.com/thaothe37na/homebrew-douyingo-releases/releases/latest/download/DouyinGo_x64.deb
 sudo dpkg -i DouyinGo_x64.deb
 ```
 
