@@ -6,14 +6,17 @@ Binary releases and Homebrew Cask formula for [DouyinGo](https://github.com/thao
 
 ### macOS (Homebrew)
 
+**One-liner:**
 ```bash
-brew install thaothe37na/homebrew-douyingo-releases/douyingo
+curl -fsSL https://raw.githubusercontent.com/thaothe37na/homebrew-douyingo-releases/main/install.sh | bash
 ```
 
-After installation, if you see a security warning:
-1. Open **System Settings > Privacy & Security**
-2. Scroll down to **Security**
-3. Click **Open Anyway** next to "DouyinGo"
+Or manually:
+```bash
+brew install thaothe37na/homebrew-douyingo-releases/douyingo
+xattr -dr com.apple.quarantine /Applications/DouyinGo.app
+open -a DouyinGo
+```
 
 ### Windows
 
