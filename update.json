@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "notes": "See https://github.com/thaothe37na/douyingo-releases/releases/tag/v2.0.0",
+  "pub_date": "2026-05-27T03:06:54Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "",
+      "url": "https://github.com/thaothe37na/douyingo-releases/releases/download/v2.0.0/DouyinGo_2.0.0_aarch64.dmg"
+    },
+    "darwin-x86_64": {
+      "signature": "",
+      "url": "https://github.com/thaothe37na/douyingo-releases/releases/download/v2.0.0/DouyinGo_2.0.0_x64.dmg"
+    }
+  }
+}
