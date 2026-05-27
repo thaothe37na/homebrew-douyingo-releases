@@ -3,7 +3,7 @@ cask "douyingo" do
 
   on_arm do
     url "https://github.com/thaothe37na/douyingo-releases/releases/download/v#{version}/DouyinGo_#{version}_aarch64.dmg"
-    sha256 "af4b197e89fd5020e7dcd213e36028d85158d7568099c57b779ac38f9865304c"
+    sha256 "e3168ef1b8174a814e5aafcab9025050ff4986bc9e8d9302184b4975683912af"
   end
   on_intel do
     url "https://github.com/thaothe37na/douyingo-releases/releases/download/v#{version}/DouyinGo_#{version}_x64.dmg"
