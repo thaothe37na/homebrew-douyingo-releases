@@ -11,11 +11,15 @@ Binary releases and Homebrew Cask formula for [DouyinGo](https://github.com/thao
 curl -fsSL https://raw.githubusercontent.com/thaothe37na/homebrew-douyingo-releases/main/install.sh | bash
 ```
 
+> **Note:** On macOS 15+ (Sequoia), unsigned apps are restricted by Apple's security.
+> The install script creates a `DouyinGo.command` launcher on your Desktop.
+> **Double-click that file** to start DouyinGo (it opens Terminal briefly).
+
 Or manually:
 ```bash
 brew install thaothe37na/homebrew-douyingo-releases/douyingo
 xattr -dr com.apple.quarantine /Applications/DouyinGo.app
-open -a DouyinGo
+/Applications/DouyinGo.app/Contents/MacOS/douyin-downloader
 ```
 
 ### Windows
